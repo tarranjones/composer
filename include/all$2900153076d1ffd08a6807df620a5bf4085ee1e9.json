@@ -8,16 +8,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/tarranjones/yii2-gii.git",
-                    "reference": "150376ad8a01e2a735d8dd4791f5acbe44cc140b"
+                    "reference": "b88af030848fee918ee393cd8d23a4143e188849"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/tarranjones/yii2-gii/zipball/150376ad8a01e2a735d8dd4791f5acbe44cc140b",
-                    "reference": "150376ad8a01e2a735d8dd4791f5acbe44cc140b",
+                    "url": "https://api.github.com/repos/tarranjones/yii2-gii/zipball/b88af030848fee918ee393cd8d23a4143e188849",
+                    "reference": "b88af030848fee918ee393cd8d23a4143e188849",
                     "shasum": ""
                 },
-                "time": "2019-09-04T18:59:38+00:00",
+                "time": "2019-09-06T05:46:51+00:00",
                 "type": "yii2-extension",
+                "autoload": {
+                    "psr-4": {
+                        "tarranjones\\yii\\gii\\": "src"
+                    }
+                },
                 "authors": [
                     {
                         "name": "tarranjones",
